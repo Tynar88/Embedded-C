@@ -1,0 +1,237 @@
+2023-03-21 10:09:33,789 [INFO] Activator:176 - 
+
+
+2023-03-21 10:09:33,789 [INFO] Activator:177 - !SESSION log4j initialized
+2023-03-21 10:09:37,037 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-03-21 10:09:59,555 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-03-21 10:09:59,555 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-03-21 10:09:59,555 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-03-21 10:15:45,463 [INFO] Activator:176 - 
+
+
+2023-03-21 10:15:45,463 [INFO] Activator:177 - !SESSION log4j initialized
+2023-03-21 10:15:52,281 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-03-21 10:16:14,697 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-03-21 10:16:14,712 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-03-21 10:16:14,712 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-03-21 10:16:54,997 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] org.eclipse.cdt.managedbuilder.core.BuildException: No toolchain option in toolchain configuration cdt.managedbuild.toolchain.gnu.mingw.exe.debug.1892369854: 
+2023-03-21 10:16:54,997 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.toolchain.ToolChainHelper.getToolChainId(ToolChainHelper.java:166)
+2023-03-21 10:16:54,997 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.toolchain.ToolChainHelper.getToolChainInfo(ToolChainHelper.java:109)
+2023-03-21 10:16:54,997 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.toolchain.ui.unmanaged.ToolSettingsTab.createControls(ToolSettingsTab.java:149)
+2023-03-21 10:16:54,997 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.cdt.ui.newui.AbstractCPropertyTab.createControls(AbstractCPropertyTab.java:139)
+2023-03-21 10:16:55,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.cdt.ui.newui.AbstractPage.loadTab(AbstractPage.java:1189)
+2023-03-21 10:16:55,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.cdt.ui.newui.AbstractPage.loadExtensionsSynchronized(AbstractPage.java:1133)
+2023-03-21 10:16:55,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.cdt.ui.newui.AbstractPage.createWidgets(AbstractPage.java:364)
+2023-03-21 10:16:55,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.cdt.ui.newui.AbstractPage.contentForCDT(AbstractPage.java:350)
+2023-03-21 10:16:55,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.cdt.ui.newui.AbstractPage.createContents(AbstractPage.java:247)
+2023-03-21 10:16:55,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferencePage.createControl(PreferencePage.java:244)
+2023-03-21 10:16:55,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferenceDialog.createPageControl(PreferenceDialog.java:1433)
+2023-03-21 10:16:55,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferenceDialog$8.run(PreferenceDialog.java:1196)
+2023-03-21 10:16:55,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+2023-03-21 10:16:55,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+2023-03-21 10:16:55,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferenceDialog.showPage(PreferenceDialog.java:1188)
+2023-03-21 10:16:55,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.showPage(FilteredPreferenceDialog.java:630)
+2023-03-21 10:16:55,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferenceDialog$5.lambda$0(PreferenceDialog.java:660)
+2023-03-21 10:16:55,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+2023-03-21 10:16:55,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferenceDialog$5.selectionChanged(PreferenceDialog.java:657)
+2023-03-21 10:16:55,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.viewers.StructuredViewer$3.run(StructuredViewer.java:821)
+2023-03-21 10:16:55,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+2023-03-21 10:16:55,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+2023-03-21 10:16:55,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.viewers.StructuredViewer.firePostSelectionChanged(StructuredViewer.java:818)
+2023-03-21 10:16:55,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.viewers.StructuredViewer.handlePostSelect(StructuredViewer.java:1191)
+2023-03-21 10:16:55,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+2023-03-21 10:16:55,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.util.OpenStrategy.firePostSelectionEvent(OpenStrategy.java:284)
+2023-03-21 10:16:55,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.util.OpenStrategy$1.lambda$1(OpenStrategy.java:438)
+2023-03-21 10:16:55,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+2023-03-21 10:16:55,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+2023-03-21 10:16:55,044 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+2023-03-21 10:16:55,044 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+2023-03-21 10:16:55,044 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+2023-03-21 10:16:55,044 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.window.Window.open(Window.java:799)
+2023-03-21 10:16:55,044 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.dialogs.PropertyDialogAction.run(PropertyDialogAction.java:153)
+2023-03-21 10:16:55,044 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+2023-03-21 10:16:55,044 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+2023-03-21 10:16:55,059 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+2023-03-21 10:16:55,059 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+2023-03-21 10:16:55,059 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+2023-03-21 10:16:55,059 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+2023-03-21 10:16:55,059 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+2023-03-21 10:16:55,059 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+2023-03-21 10:16:55,059 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+2023-03-21 10:16:55,059 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+2023-03-21 10:16:55,059 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+2023-03-21 10:16:55,070 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+2023-03-21 10:16:55,070 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+2023-03-21 10:16:55,070 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+2023-03-21 10:16:55,070 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+2023-03-21 10:16:55,070 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+2023-03-21 10:16:55,070 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+2023-03-21 10:16:55,070 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+2023-03-21 10:16:55,070 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+2023-03-21 10:16:55,070 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+2023-03-21 10:16:55,070 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+2023-03-21 10:16:55,070 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+2023-03-21 10:16:55,070 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023-03-21 10:16:55,086 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2023-03-21 10:16:55,086 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2023-03-21 10:16:55,086 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+2023-03-21 10:16:55,086 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+2023-03-21 10:16:55,086 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+2023-03-21 10:16:55,086 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2023-03-21 10:19:24,880 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Compilation Unit @ b
+2023-03-21 10:19:24,880 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Length: 4824
+2023-03-21 10:19:24,880 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Version: 5
+2023-03-21 10:19:24,880 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Abbreviation: 2049
+2023-03-21 10:19:24,880 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Address size: 0
+2023-03-21 10:19:24,880 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Offset size: 4
+2023-03-21 10:19:24,880 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 	Abrev Entry: 58 b 59
+2023-03-21 10:19:24,880 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 		 5 39
+2023-03-21 10:19:24,895 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 		 b 1
+2023-03-21 10:19:24,895 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 		 13 0
+2023-03-21 10:19:24,895 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 57
+2023-03-21 10:19:24,895 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 0
+2023-03-21 10:19:24,895 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 0
+2023-03-21 10:19:24,895 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 1
+2023-03-21 10:19:24,895 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 57
+2023-03-21 10:19:24,895 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 0
+2023-03-21 10:19:24,895 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 0
+2023-03-21 10:19:24,895 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 1
+2023-03-21 10:19:24,895 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 57
+2023-03-21 10:19:24,895 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 0
+2023-03-21 10:19:24,895 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 0
+2023-03-21 10:19:24,895 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 1
+2023-03-21 10:19:24,895 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Compilation Unit @ 12e7
+2023-03-21 10:19:24,895 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Length: 641
+2023-03-21 10:19:24,895 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Version: 5
+2023-03-21 10:19:24,895 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Abbreviation: 36505601
+2023-03-21 10:19:24,895 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Address size: 0
+2023-03-21 10:19:24,895 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Offset size: 4
+2023-03-21 10:20:18,981 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] org.eclipse.cdt.managedbuilder.core.BuildException: No toolchain option in toolchain configuration cdt.managedbuild.toolchain.gnu.mingw.exe.debug.1892369854: 
+2023-03-21 10:20:18,981 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.toolchain.ToolChainHelper.getToolChainId(ToolChainHelper.java:166)
+2023-03-21 10:20:18,981 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.toolchain.ToolChainHelper.getToolChainInfo(ToolChainHelper.java:109)
+2023-03-21 10:20:18,981 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.toolchain.ui.unmanaged.ToolSettingsTab.createControls(ToolSettingsTab.java:149)
+2023-03-21 10:20:18,981 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.cdt.ui.newui.AbstractCPropertyTab.createControls(AbstractCPropertyTab.java:139)
+2023-03-21 10:20:18,981 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.cdt.ui.newui.AbstractPage.loadTab(AbstractPage.java:1189)
+2023-03-21 10:20:18,996 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.cdt.ui.newui.AbstractPage.loadExtensionsSynchronized(AbstractPage.java:1133)
+2023-03-21 10:20:18,996 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.cdt.ui.newui.AbstractPage.createWidgets(AbstractPage.java:364)
+2023-03-21 10:20:18,996 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.cdt.ui.newui.AbstractPage.contentForCDT(AbstractPage.java:350)
+2023-03-21 10:20:18,996 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.cdt.ui.newui.AbstractPage.createContents(AbstractPage.java:247)
+2023-03-21 10:20:18,996 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferencePage.createControl(PreferencePage.java:244)
+2023-03-21 10:20:18,996 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferenceDialog.createPageControl(PreferenceDialog.java:1433)
+2023-03-21 10:20:18,996 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferenceDialog$8.run(PreferenceDialog.java:1196)
+2023-03-21 10:20:18,996 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+2023-03-21 10:20:18,996 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+2023-03-21 10:20:18,996 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferenceDialog.showPage(PreferenceDialog.java:1188)
+2023-03-21 10:20:18,996 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.showPage(FilteredPreferenceDialog.java:630)
+2023-03-21 10:20:18,996 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferenceDialog$5.lambda$0(PreferenceDialog.java:660)
+2023-03-21 10:20:18,996 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+2023-03-21 10:20:18,996 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferenceDialog$5.selectionChanged(PreferenceDialog.java:657)
+2023-03-21 10:20:18,996 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.viewers.StructuredViewer$3.run(StructuredViewer.java:821)
+2023-03-21 10:20:19,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+2023-03-21 10:20:19,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+2023-03-21 10:20:19,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.viewers.StructuredViewer.firePostSelectionChanged(StructuredViewer.java:818)
+2023-03-21 10:20:19,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.viewers.StructuredViewer.handlePostSelect(StructuredViewer.java:1191)
+2023-03-21 10:20:19,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+2023-03-21 10:20:19,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.util.OpenStrategy.firePostSelectionEvent(OpenStrategy.java:284)
+2023-03-21 10:20:19,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.util.OpenStrategy$1.lambda$1(OpenStrategy.java:438)
+2023-03-21 10:20:19,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+2023-03-21 10:20:19,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+2023-03-21 10:20:19,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+2023-03-21 10:20:19,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+2023-03-21 10:20:19,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+2023-03-21 10:20:19,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.window.Window.open(Window.java:799)
+2023-03-21 10:20:19,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.dialogs.PropertyDialogAction.run(PropertyDialogAction.java:153)
+2023-03-21 10:20:19,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+2023-03-21 10:20:19,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+2023-03-21 10:20:19,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+2023-03-21 10:20:19,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+2023-03-21 10:20:19,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+2023-03-21 10:20:19,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+2023-03-21 10:20:19,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+2023-03-21 10:20:19,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+2023-03-21 10:20:19,034 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+2023-03-21 10:20:19,034 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+2023-03-21 10:20:19,034 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+2023-03-21 10:20:19,034 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+2023-03-21 10:20:19,034 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+2023-03-21 10:20:19,034 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+2023-03-21 10:20:19,034 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+2023-03-21 10:20:19,034 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+2023-03-21 10:20:19,034 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+2023-03-21 10:20:19,034 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+2023-03-21 10:20:19,034 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+2023-03-21 10:20:19,034 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+2023-03-21 10:20:19,034 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+2023-03-21 10:20:19,034 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+2023-03-21 10:20:19,034 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023-03-21 10:20:19,050 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2023-03-21 10:20:19,050 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2023-03-21 10:20:19,050 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+2023-03-21 10:20:19,050 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+2023-03-21 10:20:19,050 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+2023-03-21 10:20:19,050 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2023-03-21 10:20:24,267 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] org.eclipse.cdt.managedbuilder.core.BuildException: No toolchain option in toolchain configuration cdt.managedbuild.toolchain.gnu.mingw.exe.debug.1892369854: 
+2023-03-21 10:20:24,267 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.toolchain.ToolChainHelper.getToolChainId(ToolChainHelper.java:166)
+2023-03-21 10:20:24,267 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.toolchain.ToolChainHelper.getToolChainInfo(ToolChainHelper.java:109)
+2023-03-21 10:20:24,267 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.toolchain.ui.unmanaged.ToolSettingsTab.createControls(ToolSettingsTab.java:149)
+2023-03-21 10:20:24,283 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.cdt.ui.newui.AbstractCPropertyTab.createControls(AbstractCPropertyTab.java:139)
+2023-03-21 10:20:24,283 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.cdt.ui.newui.AbstractPage.loadTab(AbstractPage.java:1189)
+2023-03-21 10:20:24,283 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.cdt.ui.newui.AbstractPage.loadExtensionsSynchronized(AbstractPage.java:1133)
+2023-03-21 10:20:24,283 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.cdt.ui.newui.AbstractPage.createWidgets(AbstractPage.java:364)
+2023-03-21 10:20:24,283 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.cdt.ui.newui.AbstractPage.contentForCDT(AbstractPage.java:350)
+2023-03-21 10:20:24,283 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.cdt.ui.newui.AbstractPage.createContents(AbstractPage.java:247)
+2023-03-21 10:20:24,283 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferencePage.createControl(PreferencePage.java:244)
+2023-03-21 10:20:24,283 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferenceDialog.createPageControl(PreferenceDialog.java:1433)
+2023-03-21 10:20:24,283 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferenceDialog$8.run(PreferenceDialog.java:1196)
+2023-03-21 10:20:24,283 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+2023-03-21 10:20:24,283 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+2023-03-21 10:20:24,283 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferenceDialog.showPage(PreferenceDialog.java:1188)
+2023-03-21 10:20:24,283 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.showPage(FilteredPreferenceDialog.java:630)
+2023-03-21 10:20:24,283 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferenceDialog$5.lambda$0(PreferenceDialog.java:660)
+2023-03-21 10:20:24,283 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+2023-03-21 10:20:24,298 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferenceDialog$5.selectionChanged(PreferenceDialog.java:657)
+2023-03-21 10:20:24,298 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.viewers.StructuredViewer$3.run(StructuredViewer.java:821)
+2023-03-21 10:20:24,298 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+2023-03-21 10:20:24,298 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+2023-03-21 10:20:24,298 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.viewers.StructuredViewer.firePostSelectionChanged(StructuredViewer.java:818)
+2023-03-21 10:20:24,298 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1661)
+2023-03-21 10:20:24,298 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1090)
+2023-03-21 10:20:24,298 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferenceDialog.selectSavedItem(PreferenceDialog.java:990)
+2023-03-21 10:20:24,298 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.selectSavedItem(FilteredPreferenceDialog.java:680)
+2023-03-21 10:20:24,298 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferenceDialog.lambda$0(PreferenceDialog.java:348)
+2023-03-21 10:20:24,298 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+2023-03-21 10:20:24,298 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.preference.PreferenceDialog.createContents(PreferenceDialog.java:345)
+2023-03-21 10:20:24,298 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.window.Window.create(Window.java:431)
+2023-03-21 10:20:24,298 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+2023-03-21 10:20:24,298 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.dialogs.PropertyDialog.createDialogOn(PropertyDialog.java:84)
+2023-03-21 10:20:24,314 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.dialogs.PropertyDialogAction.createDialog(PropertyDialogAction.java:169)
+2023-03-21 10:20:24,314 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.dialogs.PropertyDialogAction.run(PropertyDialogAction.java:151)
+2023-03-21 10:20:24,314 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+2023-03-21 10:20:24,314 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+2023-03-21 10:20:24,314 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+2023-03-21 10:20:24,314 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+2023-03-21 10:20:24,314 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+2023-03-21 10:20:24,314 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+2023-03-21 10:20:24,314 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+2023-03-21 10:20:24,329 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+2023-03-21 10:20:24,329 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+2023-03-21 10:20:24,329 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+2023-03-21 10:20:24,329 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+2023-03-21 10:20:24,329 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+2023-03-21 10:20:24,329 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+2023-03-21 10:20:24,329 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+2023-03-21 10:20:24,329 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+2023-03-21 10:20:24,329 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+2023-03-21 10:20:24,329 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+2023-03-21 10:20:24,329 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+2023-03-21 10:20:24,329 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+2023-03-21 10:20:24,329 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+2023-03-21 10:20:24,329 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+2023-03-21 10:20:24,329 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+2023-03-21 10:20:24,329 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023-03-21 10:20:24,345 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2023-03-21 10:20:24,345 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2023-03-21 10:20:24,345 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+2023-03-21 10:20:24,345 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+2023-03-21 10:20:24,345 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+2023-03-21 10:20:24,345 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)

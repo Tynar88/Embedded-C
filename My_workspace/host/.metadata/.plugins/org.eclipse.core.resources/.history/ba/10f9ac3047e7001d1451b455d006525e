@@ -1,0 +1,34 @@
+/*
+ * main.c
+ *
+ *  Created on: 30.04.2023
+ *      Author: mathi
+ */
+#include <stdio.h>
+
+
+float fun_AverageOfThreeFloat(float a, float b, float c);
+
+
+int main(void)
+{
+	float number1, number2, number3;
+	float average;
+	printf("Enter the 1st number: ");
+	scanf("%f",&number1);
+	printf("\nEnter the 2nd number: ");
+	scanf("%f",&number2);
+	printf("\nEnter the 3rd number: ");
+	scanf("%f",&number3);
+
+	average = fun_AverageOfThreeFloat(number1,number2,number3);
+	printf("\nThe average value is: %0.2f",average);
+
+	return 0;
+}
+
+float fun_AverageOfThreeFloat(float a, float b, float c)
+{
+	return (a+b+c)/3.0;
+
+}

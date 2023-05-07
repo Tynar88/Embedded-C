@@ -1,0 +1,191 @@
+2023-03-21 10:27:58,308 [INFO] Activator:176 - 
+
+
+2023-03-21 10:27:58,308 [INFO] Activator:177 - !SESSION log4j initialized
+2023-03-21 10:28:00,398 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-03-21 10:28:21,692 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-03-21 10:28:21,692 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-03-21 10:28:21,692 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-03-21 10:28:57,595 [INFO] Activator:176 - 
+
+
+2023-03-21 10:28:57,595 [INFO] Activator:177 - !SESSION log4j initialized
+2023-03-21 10:29:00,450 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-03-21 10:29:21,770 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-03-21 10:29:21,770 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-03-21 10:29:21,770 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-03-21 10:34:31,608 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Compilation Unit @ b
+2023-03-21 10:34:31,609 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Length: 4824
+2023-03-21 10:34:31,609 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Version: 5
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Abbreviation: 2049
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Address size: 0
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Offset size: 4
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 	Abrev Entry: 52 0 3
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 		 8 3a
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 		 b 3b
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 		 b 39
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 		 b 49
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 		 13 1c
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 		 b 0
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 58
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 0
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 59
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 58
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 57
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 59
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 73
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 57
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 28
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 73
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 0
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 28
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 58
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 0
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 59
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 58
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 57
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 59
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 73
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 57
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 28
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 73
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 0
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 28
+2023-03-21 10:34:31,610 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 58
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 0
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 59
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 58
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 57
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 59
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 73
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 57
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 28
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 73
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 0
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 28
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 58
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 0
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 59
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 58
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 57
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 59
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 73
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 57
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 28
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 73
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 0
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 28
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 58
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 0
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 59
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 58
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 57
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 59
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 73
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 57
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 28
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 73
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 0
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 28
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 58
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 0
+2023-03-21 10:34:31,625 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 59
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 58
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 57
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 59
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 73
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 57
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 28
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 73
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 0
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 28
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 58
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 0
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 59
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 58
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 57
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 59
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 73
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 57
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 28
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 73
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 0
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 28
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 58
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 0
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 59
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 58
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 57
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 59
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 73
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 57
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 28
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 73
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 0
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 28
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 58
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 0
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 59
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 58
+2023-03-21 10:34:31,641 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 57
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 59
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 73
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 57
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 28
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 73
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 0
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 28
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 58
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 0
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 59
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 58
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 57
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 59
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 73
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 57
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 28
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 73
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 0
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 28
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 58
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 0
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 59
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 58
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 57
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 59
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 73
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 57
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 28
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 73
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 0
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 28
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 58
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 0
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 59
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 58
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 57
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 59
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 73
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 57
+2023-03-21 10:34:31,656 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 28
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 73
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 0
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 28
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 58
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 0
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 59
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 58
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 57
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 59
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 73
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 57
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 28
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 73
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Default for 0
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Last form is 28
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Compilation Unit @ 12e7
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Length: 350
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Version: 5
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Abbreviation: 36505601
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Address size: 0
+2023-03-21 10:34:31,672 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Offset size: 4

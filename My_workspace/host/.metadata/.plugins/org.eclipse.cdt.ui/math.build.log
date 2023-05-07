@@ -1,0 +1,15 @@
+21:21:56 **** Incremental Build of configuration Debug for project math ****
+make all 
+Building file: ../main.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: math.exe
+Invoking: Cygwin C Linker
+gcc  -o "math.exe" ./main.o ./math.o   
+Finished building target: math.exe
+ 
+
+21:21:57 Build Finished. 0 errors, 0 warnings. (took 765ms)
+

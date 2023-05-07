@@ -1,0 +1,32 @@
+/*
+ * main.c
+ *
+ *  Created on: 30.04.2023
+ *      Author: mathi
+ */
+#include <stdio.h>
+
+
+void fun_LastConsole(void);
+
+int main(void)
+{
+	char char0, char1, char2, char3, char4, char5;
+	printf("Enter 6 single characters: ");
+//	scanf("%c %c %c %c %c %c",char0, char1, char2, char3, char4, char5);
+//	printf("1st character is: /c, the corresponding ASCII code is: %d",char0, char0);
+	scanf("%c",char0);
+	printf("1st character is: %c",char0);
+	printf(" the corresponding ASCII code is: %d"char0);
+
+
+	fun_LastConsole();
+	return 0;
+}
+
+void fun_LastConsole(void)
+{
+	printf("Press key to exit!");
+	while(getchar() != '\n') {}
+	getchar();
+}
