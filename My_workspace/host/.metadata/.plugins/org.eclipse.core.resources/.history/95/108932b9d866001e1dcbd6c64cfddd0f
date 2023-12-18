@@ -1,0 +1,22 @@
+/*
+ * main.c
+ *
+ *  Created on: 30.04.2023
+ *      Author: mathi
+ */
+#include <stdio.h>
+#include <stdint.h>
+
+
+
+int main(void)
+{
+	uint32_t packet_value;
+	printf("Enter the 32bit packet value: ");
+	scanf("%d",&packet_value);
+	printf("The 32bit packet value is: %X",packet_value);
+
+	getchar();getchar();
+	return 0;
+}
+

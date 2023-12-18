@@ -1,40 +1,21 @@
-20:39:48 **** Clean-only build of configuration Debug for project 001_HelloWorld ****
-make -j16 clean 
-rm -rf ./Startup/startup_stm32f407vgtx.d ./Startup/startup_stm32f407vgtx.o
-rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
-rm -rf 001_HelloWorld.elf 001_HelloWorld.list 001_HelloWorld.map default.size.stdout
- 
-20:39:58 **** Build of configuration Debug for project 001_HelloWorld ****
+21:33:43 **** Incremental Build of configuration Debug for project 009_struct_exercise ****
 make -j16 all 
-arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
 arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
-arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
-arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
-../Src/main.c:23:4: warning: #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use." [-Wcpp]
-   23 |   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
-      |    ^~~~~~~
-../Src/main.c: In function 'main':
-../Src/main.c:43:23: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
-   43 |  printf("num_float = %d\n",num_float);
-      |                      ~^    ~~~~~~~~~
-      |                       |    |
-      |                       int  double
-      |                      %f
-arm-none-eabi-gcc -o "001_HelloWorld.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mathi\Documents\GitHub\Embedded-C\My_workspace\target\001_HelloWorld\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_HelloWorld.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 001_HelloWorld.elf
+arm-none-eabi-gcc -o "009_struct_exercise.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mathi\Documents\GitHub\Embedded-C\My_workspace\target\009_struct_exercise\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="009_struct_exercise.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 009_struct_exercise.elf
  
-arm-none-eabi-size   001_HelloWorld.elf 
-arm-none-eabi-objdump -h -S  001_HelloWorld.elf  > "001_HelloWorld.list"
+arm-none-eabi-size   009_struct_exercise.elf 
+arm-none-eabi-objdump -h -S  009_struct_exercise.elf  > "009_struct_exercise.list"
    text	   data	    bss	    dec	    hex	filename
-  16096	    472	   1584	  18152	   46e8	001_HelloWorld.elf
+   6556	    108	   1588	   8252	   203c	009_struct_exercise.elf
 Finished building: default.size.stdout
  
-Finished building: 001_HelloWorld.list
+Finished building: 009_struct_exercise.list
  
-20:40:00 **** Incremental Build of configuration Debug for project 001_HelloWorld ****
+21:33:50 **** Incremental Build of configuration Debug for project 009_struct_exercise ****
 make -j16 all 
-arm-none-eabi-size   001_HelloWorld.elf 
+arm-none-eabi-size   009_struct_exercise.elf 
    text	   data	    bss	    dec	    hex	filename
-  16096	    472	   1584	  18152	   46e8	001_HelloWorld.elf
+   6556	    108	   1588	   8252	   203c	009_struct_exercise.elf
 Finished building: default.size.stdout
  

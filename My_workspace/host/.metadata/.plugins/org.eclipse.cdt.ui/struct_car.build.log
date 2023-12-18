@@ -1,0 +1,6 @@
+21:31:47 **** Incremental Build of configuration Debug for project struct_car ****
+make all 
+make: Nothing to be done for 'all'.
+
+21:31:47 Build Finished. 0 errors, 0 warnings. (took 127ms)
+
