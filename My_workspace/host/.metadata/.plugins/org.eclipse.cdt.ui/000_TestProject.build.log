@@ -1,6 +1,16 @@
-13:22:34 **** Incremental Build of configuration Debug for project 000_TestProject ****
+10:02:43 **** Build of configuration Debug for project 000_TestProject ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
 make all 
-make: Nothing to be done for 'all'.
+'Building file: ../main.c'
+'Invoking: Cygwin C Compiler'
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: 000_TestProject.exe'
+'Invoking: Cygwin C Linker'
+gcc  -o "000_TestProject.exe"  ./main.o   
+'Finished building target: 000_TestProject.exe'
+' '
 
-13:22:34 Build Finished. 0 errors, 0 warnings. (took 277ms)
+10:02:43 Build Finished. 0 errors, 0 warnings. (took 563ms)
 

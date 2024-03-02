@@ -1,10 +1,9 @@
-20:43:02 **** Incremental Build of configuration Debug for project 008_button_ISR ****
-make -j16 all 
-arm-none-eabi-size   008_button_ISR.elf 
-   text	   data	    bss	    dec	    hex	filename
-   5576	    132	   1596	   7304	   1c88	008_button_ISR.elf
-Finished building: default.size.stdout
+20:02:28 **** Clean-only build of configuration Debug for project 008_button_ISR ****
+make -j16 clean 
+rm -rf ./Startup/startup_stm32f407vgtx.d ./Startup/startup_stm32f407vgtx.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf 008_button_ISR.elf 008_button_ISR.list 008_button_ISR.map default.size.stdout
  
 
-20:43:02 Build Finished. 0 errors, 0 warnings. (took 173ms)
+20:02:28 Build Finished. 0 errors, 0 warnings. (took 211ms)
 

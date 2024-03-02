@@ -1,21 +1,36 @@
-21:33:43 **** Incremental Build of configuration Debug for project 009_struct_exercise ****
-make -j16 all 
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
-arm-none-eabi-gcc -o "009_struct_exercise.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mathi\Documents\GitHub\Embedded-C\My_workspace\target\009_struct_exercise\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="009_struct_exercise.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 009_struct_exercise.elf
+20:05:38 **** Clean-only build of configuration Debug for project 000_TestProject ****
+make -j16 clean 
+rm -rf ./Startup/startup_stm32f407vgtx.d ./Startup/startup_stm32f407vgtx.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf 000_TestProject.elf 000_TestProject.list 000_TestProject.map default.size.stdout
  
-arm-none-eabi-size   009_struct_exercise.elf 
-arm-none-eabi-objdump -h -S  009_struct_exercise.elf  > "009_struct_exercise.list"
+20:05:51 **** Clean-only build of configuration Debug for project 000_TestProject ****
+make -j16 clean 
+rm -rf ./Startup/startup_stm32f407vgtx.d ./Startup/startup_stm32f407vgtx.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf 000_TestProject.elf 000_TestProject.list 000_TestProject.map default.size.stdout
+ 
+20:05:51 **** Build of configuration Debug for project 000_TestProject ****
+make -j16 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "000_TestProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mathi\Documents\GitHub\Embedded-C\My_workspace\target\000_TestProject\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="000_TestProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 000_TestProject.elf
+ 
+arm-none-eabi-size  000_TestProject.elf 
+arm-none-eabi-objdump -h -S 000_TestProject.elf  > "000_TestProject.list"
    text	   data	    bss	    dec	    hex	filename
-   6556	    108	   1588	   8252	   203c	009_struct_exercise.elf
+    676	      8	   1568	   2252	    8cc	000_TestProject.elf
 Finished building: default.size.stdout
  
-Finished building: 009_struct_exercise.list
+Finished building: 000_TestProject.list
  
-21:33:50 **** Incremental Build of configuration Debug for project 009_struct_exercise ****
+20:06:11 **** Incremental Build of configuration Debug for project 000_TestProject ****
 make -j16 all 
-arm-none-eabi-size   009_struct_exercise.elf 
+arm-none-eabi-size  000_TestProject.elf 
    text	   data	    bss	    dec	    hex	filename
-   6556	    108	   1588	   8252	   203c	009_struct_exercise.elf
+    676	      8	   1568	   2252	    8cc	000_TestProject.elf
 Finished building: default.size.stdout
  

@@ -1,19 +1,15 @@
-21:43:12 **** Incremental Build of configuration Debug for project struct_exercise ****
+19:47:30 **** Build of configuration Debug for project Fun0 ****
 make all 
 Building file: ../main.c
 Invoking: Cygwin C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
-../main.c: In function 'main':
-../main.c:32:17: warning: variable 'temp' set but not used [-Wunused-but-set-variable]
-   32 |         uint8_t temp = packet_value >> 31;
-      |                 ^~~~
 Finished building: ../main.c
  
-Building target: struct_exercise.exe
+Building target: Fun0.exe
 Invoking: Cygwin C Linker
-gcc  -o "struct_exercise.exe" ./main.o   
-Finished building target: struct_exercise.exe
+gcc  -o "Fun0.exe" ./main.o   
+Finished building target: Fun0.exe
  
-21:43:21 **** Incremental Build of configuration Debug for project struct_exercise ****
+19:48:17 **** Incremental Build of configuration Debug for project Fun0 ****
 make all 
 make: Nothing to be done for 'all'.

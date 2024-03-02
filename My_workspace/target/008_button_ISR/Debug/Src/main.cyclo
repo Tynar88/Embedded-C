@@ -1,3 +1,0 @@
-main.c:29:5:main	3
-main.c:54:6:button_init	1
-main.c:70:6:EXTI0_IRQHandler	1
